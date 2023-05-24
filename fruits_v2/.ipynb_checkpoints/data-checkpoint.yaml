@@ -1,0 +1,16 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+train: /home/featurize/work/yolov5_fruits/fruits_v2/train/images
+val: /home/featurize/work/yolov5_fruits/fruits_v2/valid/images
+test: /home/featurize/work/yolov5_fruits/fruits_v2/test/images
+
+nc: 15
+names: ['apple', 'banana', 'cherry', 'coconut', 'cucumber', 'grape', 'kiwi', 'melon', 'orange', 'peach', 'pear', 'pineapple', 'pomegranate', 'strawberry', 'watermelon']
+
+roboflow:
+  workspace: aifyb-pkmmc
+  project: fruits_detector
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aifyb-pkmmc/fruits_detector/dataset/2

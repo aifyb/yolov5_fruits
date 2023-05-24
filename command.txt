@@ -1,0 +1,2 @@
+python export.py --data /home/featurize/work/yolov5_fruits/fruits/data.yaml  --weights runs/train/yplov5s/weights/best.pt --include torchscript --device cuda:0
+python export.py --data /home/featurize/work/yolov5_fruits/fruits/data.yaml  --weights runs/train/yplov5s/weights/best.pt --include onnx --opset 13 
